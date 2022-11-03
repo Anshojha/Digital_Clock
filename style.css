@@ -55,3 +55,18 @@ position: relative;
     font-size: 20px;
     background-color: green;
 }
+
+
+@media (max-width:750px) {
+    body{
+        margin: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .clock{
+        display: grid;
+    }
+    .clock #ampm{
+        position:static;
+    }
+}
